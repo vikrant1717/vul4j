@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out your repository code so the workflow can access it
+      # Step 1: Check out your repository code so the workflow can access it Token
       - name: Checkout Repository
         uses: actions/checkout@v4
 
